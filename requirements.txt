@@ -1,0 +1,17 @@
+torch
+transformers
+accelerate
+evaluate
+scikit-learn
+numpy
+matplotlib
+seaborn
+fastapi
+uvicorn
+pydantic
+contractions
+python-dotenv
+wordcloud
+nltk
+
+-e .
