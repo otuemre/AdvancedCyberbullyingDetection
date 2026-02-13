@@ -217,3 +217,10 @@ __marimo__/
 
 # Dataset
 dataset
+
+# Model
+models
+
+# Notebook
+notebooks/results
+notebooks/1.1.0'
