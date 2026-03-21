@@ -31,7 +31,6 @@ class PredictionPipeline:
                     "prob_cyberbullying": 0.0,
                     "pred_label": 0,
                     "pred_name": "not_cyberbullying",
-                    "threshold": self.threshold,
                 }
 
             inputs = self.tokenizer(
@@ -54,7 +53,7 @@ class PredictionPipeline:
             pred_name = "cyberbullying" if pred_label == 1 else "not_cyberbullying"
 
             return {
-                "preprocessed_text": cleaned,
+                "text_cleaned": cleaned,
                 "prob_cyberbullying": prob_cyberbullying,
                 "pred_label": pred_label,
                 "pred_name": pred_name,
@@ -80,7 +79,6 @@ class PredictionPipeline:
                         "prob_cyberbullying": 0.0,
                         "pred_label": 0,
                         "pred_name": "not_cyberbullying",
-                        "threshold": self.threshold,
                     }
                     for _ in cleaned_texts
                 ]
@@ -112,7 +110,6 @@ class PredictionPipeline:
                         "prob_cyberbullying": p,
                         "pred_label": pred_label,
                         "pred_name": pred_name,
-                        "threshold": self.threshold,
                     }
                 )
 

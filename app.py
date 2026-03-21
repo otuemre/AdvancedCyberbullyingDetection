@@ -21,7 +21,7 @@ class PredictRequest(BaseModel):
 
 
 class PredictResponse(BaseModel):
-    preprocessed_text: str
+    text_cleaned: str
     prob_cyberbullying: float
     pred_label: int
     pred_name: str
