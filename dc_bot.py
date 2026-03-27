@@ -30,6 +30,10 @@ async def on_message(message):
         if result["pred_label"] == 1:
             await message.delete()
 
+            await message.channel.send(
+                f"{message.author.mention}'s message has been deleted due to toxicity."
+            )
+
             user = await client.fetch_user(ADMIN_ID)
 
             await user.send(
