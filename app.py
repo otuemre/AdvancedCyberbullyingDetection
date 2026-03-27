@@ -8,7 +8,7 @@ from src.logger import get_logger
 logger = get_logger(__name__)
 
 app = FastAPI(
-    title="AdvancedChatThreatDetection API",
+    title="AdvancedCyberbullyingDetection API",
     version="1.0.0",
 )
 
