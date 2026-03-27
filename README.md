@@ -32,8 +32,8 @@ The system consists of two main components:
 - PyTorch
 - Hugging Face Transformers
 - Discord.py
-- FastAPI / Flask
-- AWS (container-based deployment)
+- FastAPI (Uvicorn)
+- AWS CodeRunner
 
 ---
 
