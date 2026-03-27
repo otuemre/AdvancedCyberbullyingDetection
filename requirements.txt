@@ -13,5 +13,9 @@ contractions
 python-dotenv
 wordcloud
 nltk
+jupyter
+notebook
+discord.py
+requests
 
 -e .

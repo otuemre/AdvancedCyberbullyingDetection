@@ -27,7 +27,7 @@ def get_requirements(file_path: str) -> List[str]:
 
 
 setup(
-    name="advanced-chat-threat-detection",
+    name="advanced-cyberbullying-detection",
     version="1.0.0",
     description="Transformer-based cyberbullying detection system with FastAPI deployment",
     author="Emre OTU",
